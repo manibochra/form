@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+.headerstyle {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    margin-top: 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    justify-content: center;
+
+}
+
+.container {
+    margin: 100px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(144, 189, 248);
+    border-radius: 50px;
+    position: relative;
+    height: 500px;
+    border-radius: 1em;
+
+}
+
+.deplacement {
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#name {
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px;
+
+}
+
+.espace {
+    background-color: black;
+
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    box-sizing: border-box;
+
+
+
+}
+
+.button {
+    display: flex;
+    align-self: center;
+    padding: 50px;
+    justify-content: end;
+    box-sizing: border-box;
+    border-radius: 50;
+}
+
+#lastname {
+    box-sizing: border-box;
+    box-shadow: 0 0 20px;
+
+}
+
+#date {
+    box-sizing: border-box;
+    box-shadow: 0 0 20px;
+}
+
+#email {
+    box-sizing: border-box;
+    box-shadow: 0 0 20px;
+
+}
+
+#tel {
+    box-sizing: border-box;
+    box-shadow: 0 0 20px;
+
+}
+
+#msg {
+    box-sizing: border-box;
+    box-shadow: 0 0 70px;
+}
+
+h5 {
+    font-size: x-large;
+    color: rgb(95, 156, 236);
+
+}
